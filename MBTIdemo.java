@@ -211,7 +211,7 @@ public class MBTIdemo {
             i += 2;
 
         //Q17
-        System.out.println("16.\tDoes following a schedule");
+        System.out.println("17.\tDoes following a schedule");
         System.out.println("\tA.\tappeal to you, or");
         System.out.println("\tB.\tcramp you?\n");
 
@@ -542,7 +542,7 @@ public class MBTIdemo {
             s += 2;
 
         //Q46
-        System.out.println("44.\tA.\tFirm-minded");
+        System.out.println("46.\tA.\tFirm-minded");
         System.out.println("\tB.\tWarm-hearted\n");
 
         response = response();
@@ -592,44 +592,41 @@ public class MBTIdemo {
         if (response == 'A')
             t+= 2;
 
-
-        //Print results
-        printResults(e, i, s, n, t, f, j, p, sex);
+        //Get and print results
+        printResults(getMBTI(e, i, s, n, t, f, j, p, sex));
     }
 
     static String getMBTI(int e, int i, int s, int n, int t, int f, int j, int p, char sex) {
-        char ei, sn, tf, jp;
         String mbti = "";
 
         if (i > e || e == i) {
-            ei = 'I';
+            mbti += "I";
         } else {
-            ei = 'E';
+            mbti += "E";
         }
 
         if (n > s || s == n) {
-            sn = 'N';
+            mbti += "N";
         } else {
-            sn = 'S';
+            mbti += "S";
         }
 
         if ((t == f && sex == 'M') || t > f) {
-                tf = 'T';
+            mbti += "T";
         }  else {
-            tf = 'F';
+            mbti += "F";
         }
 
         if (p > s || j == p) {
-            jp = 'P';
+            mbti += "P";
         } else {
-            jp = 'J';
+            mbti += "J";
         }
 
-        return mbti + ei + sn + tf + jp;
+        return mbti;
     }
     
-    static void printResults(int e, int i, int s, int n, int t, int f, int j, int p, char sex) {
-        String mbti = getMBTI(e, i, s, n, t, f, j, p, sex);
+    static void printResults(String mbti) {
         System.out.println("Your personality type is " + mbti + ".\n");
 
         System.out.println("Mind:");
@@ -659,7 +656,6 @@ public class MBTIdemo {
         } else {
             System.out.println("Perceiving (P) - very good at improvising, prefer keeping their options open, relaxed about their work, seek freedom.\n");
         }
-        
     }
     
     static char response() {
