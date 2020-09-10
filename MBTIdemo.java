@@ -562,7 +562,7 @@ public class MBTIdemo {
             t += 2;
 
         //Q48
-        System.out.println("44.\tA.\tLiteral");
+        System.out.println("48.\tA.\tLiteral");
         System.out.println("\tB.\tFigurative\n");
 
         response = response();
@@ -597,8 +597,9 @@ public class MBTIdemo {
         printResults(e, i, s, n, t, f, j, p, sex);
     }
 
-    static void printResults(int e, int i, int s, int n, int t, int f, int j, int p, char sex) {
+    static String getMBTI(int e, int i, int s, int n, int t, int f, int j, int p, char sex) {
         char ei, sn, tf, jp;
+        String mbti = "";
 
         if (i > e || e == i) {
             ei = 'I';
@@ -624,8 +625,41 @@ public class MBTIdemo {
             jp = 'J';
         }
 
-        System.out.println("Your personality type is " + ei + sn + tf + jp + ".");
+        return mbti + ei + sn + tf + jp;
+    }
+    
+    static void printResults(int e, int i, int s, int n, int t, int f, int j, int p, char sex) {
+        String mbti = getMBTI(e, i, s, n, t, f, j, p, sex);
+        System.out.println("Your personality type is " + mbti + ".\n");
 
+        System.out.println("Mind:");
+        if (mbti.charAt(0) == 'E') {
+            System.out.println("Extraverted (E) - prefer group activities, think while speaking, get energized by social interaction.\n");
+        } else {
+            System.out.println("Introverted (I) - prefer solitary activities, think before speaking, get exhausted by social interaction.\n");
+        }
+        
+        System.out.println("Energy:");
+        if (mbti.charAt(1) == 'S') {
+            System.out.println("Sensing (S) - down-to-earth, rely on senses, absorbed in practical matters, focus on what has happened.\n");
+        } else {
+            System.out.println("Intuitive (N) - imaginative, rely on intuition, absorbed in ideas, focus on what might happen.\n");
+        }
+
+        System.out.println("Nature:");
+        if (mbti.charAt(2) == 'T') {
+            System.out.println("Thinking (T) - tough, follow their minds, focus on objectivity and rationality.\n");
+        } else {
+            System.out.println("Feeling (F) - sensitive, follow their hearts, focus on harmony and cooperation.\n");
+        }
+
+        System.out.println("Tactics:");
+        if (mbti.charAt(3) == 'J') {
+            System.out.println("Judging (J) - decisive, prefer clear rules and guidelines, see deadlines as sacred, seek closure.\n");
+        } else {
+            System.out.println("Perceiving (P) - very good at improvising, prefer keeping their options open, relaxed about their work, seek freedom.\n");
+        }
+        
     }
     
     static char response() {
