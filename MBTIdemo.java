@@ -16,8 +16,7 @@ public class MBTIdemo {
         else
             sex = 'F';
 
-
-        //Part 1
+        /*****Part 1*****/
         System.out.println("*****Part 1: Which answer comes closer to telling how you usually feel or act?*****\n");
 
         //Q1
@@ -337,7 +336,7 @@ public class MBTIdemo {
         if (response == 'A')
             e++;
 
-        //Part 2
+        /*****Part 2*****/
         System.out.println("*****Part 2: Which word in each pair appeals to you more?*****");
         System.out.println("(Think what the words mean, not how they look or sound.)\n");
 
@@ -641,11 +640,12 @@ public class MBTIdemo {
         } else {
             boolean invalidInput = true;
             while (invalidInput) {
-                System.out.println("Invalid input. Please enter A or B.");
+                System.out.print("Invalid input. Please enter A or B: ");
                 response = Character.toUpperCase(in.next().charAt(0));
                 if (response == 'A' || response == 'B')
                     invalidInput = false;
             }
+            System.out.println();
         }
         return response;
     }
@@ -655,7 +655,7 @@ public class MBTIdemo {
         char response = 0;
         System.out.print("Please enter A, B, or C: ");
         response = Character.toUpperCase(in.next().charAt(0));
-        System.out.print("\n");
+        System.out.println();
 
         if (response == 'A' || response == 'B' || response == 'C') {
             return response;
@@ -667,6 +667,7 @@ public class MBTIdemo {
                 if (response == 'A' || response == 'B' || response == 'C')
                     invalidInput = false;
             }
+            System.out.println();
         }
         return response;
     }
@@ -688,6 +689,7 @@ public class MBTIdemo {
                 if (response == 'A' || response == 'B' || response == 'C' || response == 'D' || response == 'E' || response == 'F')
                     invalidInput = false;
             }
+            System.out.println();
         }
         return response;
     }
