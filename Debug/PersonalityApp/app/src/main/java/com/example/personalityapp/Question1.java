@@ -9,13 +9,13 @@ import android.widget.Button;
 
 public class Question1 extends AppCompatActivity {
     private Button button;                                     //declare buttonA as a button that will be defined
-    //private Button buttonB;
+    private Button buttonB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question1);                //set to the current page
 
-        button = (Button) findViewById(R.id.buttonA);
+        button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {                        //define what to do on click
@@ -24,7 +24,7 @@ public class Question1 extends AppCompatActivity {
             }
         });
 
-/*
+
         buttonB = (Button) findViewById(R.id.buttonB);
         buttonB.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,7 +34,7 @@ public class Question1 extends AppCompatActivity {
             }
         });
 
-*/
+
 
 
 
