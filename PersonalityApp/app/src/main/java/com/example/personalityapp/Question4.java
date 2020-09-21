@@ -7,20 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Question3 extends AppCompatActivity {
+public class Question4 extends AppCompatActivity {
     private Button buttonA;
     private Button buttonB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question3);                //set to the current page
+        setContentView(R.layout.activity_question4);                //set to the current page
 
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                openQuestion3();                    //go to next question
+                openQuestion5();                    //go to next question
             }
         });
 
@@ -29,13 +29,13 @@ public class Question3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                openQuestion3();                    //go to next question
+                openQuestion5();                    //go to next question
             }
         });
     }
 
-    public void openQuestion3() {
-        Intent intent = new Intent(this, Question4.class);
+    public void openQuestion5() {
+        Intent intent = new Intent(this, Question5.class);
         startActivity(intent);
     }
 }

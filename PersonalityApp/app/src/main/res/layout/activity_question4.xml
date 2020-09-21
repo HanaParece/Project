@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Question3">
+    tools:context=".Question4">
 
     <TextView
         android:id="@+id/textView"
@@ -13,7 +13,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="Are you usually"
+        android:text="Do you more often let"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,27 +27,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text='A "Good Mixer" with groups of people, or'
+        android:text="Your heart rule your head"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.527"
         tools:layout_editor_absoluteX="0dp" />
 
-
     <Button
         android:id="@+id/buttonB"
         android:layout_width="433dp"
         android:layout_height="49dp"
-        android:text="Rather quiet and reserved"
+        android:text="Your head rule your heart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.598" />
-
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
