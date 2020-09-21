@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Personality App</string>
+    <string name="plan_what_you_will_do_and_when_or">plan what you will do and when, or</string>
+    <string name="just_go">just go!!</string>
+    <string name="when_you_go_somewhere_for_the_day_would_you_rather">When you go somewhere for the day, would you rather</string>
+    <string name="male">Male</string>
+    <string name="what_is_your_sex">What is your sex?</string>
+    <string name="female">Female</string>
 </resources>

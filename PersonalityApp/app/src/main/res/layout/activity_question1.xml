@@ -13,7 +13,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="Question 1"
+        android:text="@string/what_is_your_sex"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,11 +23,11 @@
         app:layout_constraintVertical_bias="0.449" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Select A and Go to Question 2"
+        android:text="@string/male"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.527"
@@ -37,7 +37,7 @@
         android:id="@+id/buttonB"
         android:layout_width="433dp"
         android:layout_height="49dp"
-        android:text="Select B and Go to Question 2"
+        android:text="@string/female"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
