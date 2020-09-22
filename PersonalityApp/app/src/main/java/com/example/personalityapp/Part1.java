@@ -18,14 +18,14 @@ public class Part1 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openQuestion2();
+                openQuestion1();
             }
         });
     }
 
 
-    public void openQuestion2(){
-        Intent intent = new Intent(this, Question2.class);
+    public void openQuestion1(){
+        Intent intent = new Intent(this, Question1.class);
         startActivity(intent);
     }
 }

@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openQuestion1();
+                openSelectGender();
             }
         });
     }
 
 
-    public void openQuestion1(){
-        Intent intent = new Intent(this, Question1.class);
+    public void openSelectGender(){
+        Intent intent = new Intent(this, SelectGender.class);
         startActivity(intent);
     }
 }

@@ -20,7 +20,7 @@ public class Question3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                openQuestion3();                    //go to next question
+                openQuestion4();                    //go to next question
             }
         });
 
@@ -29,12 +29,12 @@ public class Question3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                openQuestion3();                    //go to next question
+                openQuestion4();                    //go to next question
             }
         });
     }
 
-    public void openQuestion3() {
+    public void openQuestion4() {
         Intent intent = new Intent(this, Question4.class);
         startActivity(intent);
     }
