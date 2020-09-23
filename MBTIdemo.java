@@ -20,7 +20,7 @@ public class MBTIdemo {
         System.out.println("*****Part 1: Which answer comes closer to telling how you usually feel or act?*****\n");
 
         //Q1
-        System.out.println("1.\tWhen you go somewhere for the day, would you rather");
+        System.out.println("1.\tWhen you go somewhere for the day, would you rather:");
         System.out.println("\tA.\tplan what you will do and when, or");
         System.out.println("\tB.\tjust go!!\n");
         
@@ -44,7 +44,7 @@ public class MBTIdemo {
             p += 2;
         
         //Q3
-        System.out.println("3.\tAre you usually");
+        System.out.println("3.\tAre you usually:");
         System.out.println("\tA.\ta \"good mixer\" with groups of people, or");
         System.out.println("\tB.\trather quiet and reserved?\n");
 
@@ -56,7 +56,7 @@ public class MBTIdemo {
             i += 2;
 
         //Q4
-        System.out.println("4.\tDo you more often let");
+        System.out.println("4.\tDo you more often let:");
         System.out.println("\tA.\tyour heart rule your head, or");
         System.out.println("\tB.\tyour head rule your heart?\n");
 
@@ -68,7 +68,7 @@ public class MBTIdemo {
             t += 2;
 
         //Q5
-        System.out.println("5.\tIn doing something that many other people do, would you rather");
+        System.out.println("5.\tIn doing something that many other people do, would you rather:");
         System.out.println("\tA.\tinvent a way of your own, or");
         System.out.println("\tB.\tdo it in the accepted way?\n");
 
@@ -80,7 +80,7 @@ public class MBTIdemo {
             s++;
 
         //Q6
-        System.out.println("6.\tAmong your friends are you");
+        System.out.println("6.\tAmong your friends are you:");
         System.out.println("\tA.\tfull of news about everybody, or");
         System.out.println("\tB.\tone of the last to hear what is going on?\n");
 
@@ -94,7 +94,7 @@ public class MBTIdemo {
         //Q7
         System.out.println("7.\tDoes the idea of making a list of what you should get done over a weekend");
         System.out.println("\tA.\thelp you, or");
-        System.out.println("\tB.\tstress you, or");
+        System.out.println("\tB.\tstress you out, or");
         System.out.println("\tC.\tpositively depress you?\n");
 
         response = threeResponse();
@@ -283,7 +283,7 @@ public class MBTIdemo {
             t += 2;
 
         //Q23
-        System.out.println("23.\tWould you rather have as a friend");
+        System.out.println("23.\tWho would you rather have as a friend?");
         System.out.println("\tA.\tsomeone who is always coming up with new ideas, or");
         System.out.println("\tB.\tsomeone who has both feet on the ground?\n");
 
@@ -338,7 +338,7 @@ public class MBTIdemo {
 
         /*****Part 2*****/
         System.out.println("*****Part 2: Which word in each pair appeals to you more?*****");
-        System.out.println("(Think what the words mean, not how they look or sound.)\n");
+        System.out.println("(Choose based off of definitions, not how they look or sound.)\n");
 
         //Q27
         System.out.println("27.\tA.\tScheduled");
