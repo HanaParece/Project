@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//comment for in class project from claire 9.21.20 :-)
+
 public class MBTIdemo {
     public static void main(String[] args) {
         int e = 0, i = 0, s = 0, n = 0, t = 0, f = 0, j = 0, p = 0;
