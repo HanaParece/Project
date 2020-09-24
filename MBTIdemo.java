@@ -17,12 +17,12 @@ public class MBTIdemo {
             sex = 'F';
 
         /*****Part 1*****/
-        System.out.println("*****Part 1: Which answer comes closer to telling how you usually feel or act?*****\n");
+        System.out.println("*****Part 1: Respond honestly to the question, choosing the answer that best describes the way you act in each situation.*****\n");
 
         //Q1
         System.out.println("1.\tWhen you go somewhere for the day, would you rather:");
-        System.out.println("\tA.\tplan what you will do and when, or");
-        System.out.println("\tB.\tjust go!!\n");
+        System.out.println("\tA.\tplan what you will do and when");
+        System.out.println("\tB.\tjust go and let the day lead you where it does\n");
         
         response = response();
 
@@ -33,7 +33,7 @@ public class MBTIdemo {
         
         //Q2
         System.out.println("2.\tIf you were a teacher, would you rather teach");
-        System.out.println("\tA.\tfacts-based courses, or");
+        System.out.println("\tA.\tfact-based courses like math");
         System.out.println("\tB.\tcourses involving opinion or theory?\n");
 
         response = response();
@@ -69,7 +69,7 @@ public class MBTIdemo {
 
         //Q5
         System.out.println("5.\tIn doing something that many other people do, would you rather:");
-        System.out.println("\tA.\tinvent a way of your own, or");
+        System.out.println("\tA.\tdo it your own way, or");
         System.out.println("\tB.\tdo it in the accepted way?\n");
 
         response = response();
@@ -235,9 +235,9 @@ public class MBTIdemo {
             p++;
 
         //Q19
-        System.out.println("19.\tAre you more successful");
-        System.out.println("\tA.\tat following a carefully worked out plan, or");
-        System.out.println("\tB.\tdealing with the unexpected and seeing quickly what should be done?\n");
+        System.out.println("19.\tWhich are you more successful at?");
+        System.out.println("\tA.\tfollowing a carefully worked out plan");
+        System.out.println("\tB.\tquickly dealing with the unexpected\n");
 
         response = response();
 
@@ -247,9 +247,9 @@ public class MBTIdemo {
             p++;
 
         //Q20
-        System.out.println("20.\tWould you rather be considered a");
-        System.out.println("\tA.\tpractical person, or");
-        System.out.println("\tB.\tan out-of-the-box-thinking person?\n");
+        System.out.println("20.\tWould you rather be considered a:");
+        System.out.println("\tA.\tpractical person");
+        System.out.println("\tB.\ta person who thinks out-of-the box\n");
 
         response = response();
 
@@ -259,9 +259,9 @@ public class MBTIdemo {
             n += 2;
 
         //Q21
-        System.out.println("21.\tIn a large group, do you more often");
-        System.out.println("\tA.\tintroduce others, or");
-        System.out.println("\tB.\tget introduced?\n");
+        System.out.println("21.\tIn a large group, which do you do most often?");
+        System.out.println("\tA.\tintroduce others");
+        System.out.println("\tB.\tget introduced\n");
 
         response = response();
 
@@ -271,9 +271,9 @@ public class MBTIdemo {
             i += 2;
 
         //Q22
-        System.out.println("22.\tDo you usually");
-        System.out.println("\tA.\tvalue emotion more than logic, or");
-        System.out.println("\tB.\tvalue logic more than feelings?\n");
+        System.out.println("22.\tDo you usually:");
+        System.out.println("\tA.\tvalue emotion more than logic");
+        System.out.println("\tB.\tvalue logic more than feelings\n");
 
         response = response();
 
@@ -284,8 +284,8 @@ public class MBTIdemo {
 
         //Q23
         System.out.println("23.\tWho would you rather have as a friend?");
-        System.out.println("\tA.\tsomeone who is always coming up with new ideas, or");
-        System.out.println("\tB.\tsomeone who has both feet on the ground?\n");
+        System.out.println("\tA.\tSomeone who is always coming up with new ideas");
+        System.out.println("\tB.\tSomeone who has both feet on the ground\n");
 
         response = response();
 
@@ -295,9 +295,9 @@ public class MBTIdemo {
             s += 2;
 
         //Q24
-        System.out.println("24.\tCan the new people you meet tell what you are interested in");
-        System.out.println("\tA.\tright away, or");
-        System.out.println("\tB.\tonly after they really get to know you?\n");
+        System.out.println("24.\tWhen meeting someone new, they can tell what you are interested in:");
+        System.out.println("\tA.\tright away");
+        System.out.println("\tB.\tonly after they really get to know you\n");
 
         response = response();
 
@@ -308,8 +308,8 @@ public class MBTIdemo {
 
         //Q25
         System.out.println("25.\tIn your daily work, do you");
-        System.out.println("\tA.\tusually plan your work so you won't need to work under pressure, or");
-        System.out.println("\tB.\trather enjoy an emergency that makes you work against time, or");
+        System.out.println("\tA.\tusually plan your work to avoid stress");
+        System.out.println("\tB.\trather enjoy an emergency that makes you work against time");
         System.out.println("\tC.\thate to work under pressure?");
         System.out.println("\tD.\tA and B both apply to me.");
         System.out.println("\tE.\tA and C both apply to me.");
