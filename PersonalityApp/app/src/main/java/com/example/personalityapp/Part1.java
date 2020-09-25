@@ -1,5 +1,5 @@
 package com.example.personalityapp;
-
+//comment
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
