@@ -6,3 +6,4 @@ the results, and presents the user's personality profile upon complete. Each que
 in text with accompanied graphics to depict the question/dilemma. Questions may be straight forward
 or based off of ancedotes. Upon completion and presentation of the profile, a description is given.
 
+Images will be included.
