@@ -13,7 +13,7 @@ public class Question26 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question20);                //set to the current page
+        setContentView(R.layout.activity_question26);                //set to the current page
 
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {
