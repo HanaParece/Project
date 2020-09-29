@@ -10,6 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Question25 extends AppCompatActivity {
     private Button buttonA;                                     //declare buttonA as a button that will be defined
     private Button buttonB;
+    private Button buttonC;                                     //declare buttonA as a button that will be defined
+    private Button buttonD;
+    private Button buttonE;                                     //declare buttonA as a button that will be defined
+    private Button buttonF;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +38,49 @@ public class Question25 extends AppCompatActivity {
                 openQuestion26();                    //go to next question
             }
         });
+
+        buttonC = (Button) findViewById(R.id.buttonC);
+        buttonC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {                        //define what to do on click
+                //do something
+                openQuestion26();                    //go to next question
+            }
+        });
+
+        buttonD = (Button) findViewById(R.id.buttonD);
+        buttonD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //do something
+                openQuestion26();                    //go to next question
+            }
+        });
+
+        buttonE = (Button) findViewById(R.id.buttonE);
+        buttonE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {                        //define what to do on click
+                //do something
+                openQuestion26();                    //go to next question
+            }
+        });
+
+        buttonF = (Button) findViewById(R.id.buttonF);
+        buttonF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //do something
+                openQuestion26();                    //go to next question
+            }
+        });
+
+
+
+
+
+
+
     }
 
 
