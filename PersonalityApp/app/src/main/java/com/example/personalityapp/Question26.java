@@ -20,7 +20,7 @@ public class Question26 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                openQuestion27();                    //go to next question
+                openPart2();                    //go to next question
             }
         });
 
@@ -29,14 +29,14 @@ public class Question26 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                openQuestion27();                    //go to next question
+                openPart2();                    //go to next question
             }
         });
     }
 
 //link goes back to first page for now
-    public void openQuestion27(){
-        Intent intent = new Intent(this, Question27.class); // change this line when adding more questions
+    public void openPart2(){
+        Intent intent = new Intent(this, Part2.class); // change this line when adding more questions
         startActivity(intent);
     }
 }
