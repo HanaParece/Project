@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Question28">
 
-<<<<<<< HEAD
-=======
 
     <Button
         android:id="@+id/buttonA"
@@ -30,5 +28,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.61"
         tools:layout_editor_absoluteX="0dp" />
->>>>>>> Bens_Branch
 </androidx.constraintlayout.widget.ConstraintLayout>

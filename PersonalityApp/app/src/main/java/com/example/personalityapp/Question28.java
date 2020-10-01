@@ -1,17 +1,5 @@
 package com.example.personalityapp;
 
-<<<<<<< HEAD
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-
-public class Question28 extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question28);
-=======
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -50,6 +38,5 @@ public class Question28 extends AppCompatActivity {
     public void openQuestion29(){
         Intent intent = new Intent(this, Question29.class); // change this line when adding more questions
         startActivity(intent);
->>>>>>> Bens_Branch
     }
 }
