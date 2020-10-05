@@ -6,4 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".Question41">
 
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Systematic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Casual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
