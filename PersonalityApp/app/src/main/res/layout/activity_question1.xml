@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Question1">
 
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/just_go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613"
+        tools:layout_editor_absoluteX="0dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -34,14 +45,14 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
-        android:id="@+id/buttonB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="@string/just_go"
+        android:id="@+id/egg"
+        android:layout_width="247dp"
+        android:layout_height="246dp"
+        android:background="@drawable/eggone"
+        android:text="egg"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonB" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
