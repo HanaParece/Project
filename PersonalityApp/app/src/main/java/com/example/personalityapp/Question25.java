@@ -26,6 +26,7 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
+                MainActivity.profile.incrementJ(1);
                 openQuestion26();                    //go to next question
             }
         });
@@ -35,6 +36,7 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
+                MainActivity.profile.incrementP(1);
                 openQuestion26();                    //go to next question
             }
         });
@@ -53,6 +55,8 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
+                MainActivity.profile.incrementJ(1);
+                MainActivity.profile.incrementP(1);
                 openQuestion26();                    //go to next question
             }
         });
@@ -62,6 +66,7 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
+                MainActivity.profile.incrementJ(1);
                 openQuestion26();                    //go to next question
             }
         });
@@ -71,6 +76,7 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
+                MainActivity.profile.incrementP(1);
                 openQuestion26();                    //go to next question
             }
         });

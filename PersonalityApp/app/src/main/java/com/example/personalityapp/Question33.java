@@ -29,6 +29,7 @@ public class Question33 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
+                MainActivity.profile.incrementT(2);
                 openQuestion34();                    //go to next question
             }
         });
