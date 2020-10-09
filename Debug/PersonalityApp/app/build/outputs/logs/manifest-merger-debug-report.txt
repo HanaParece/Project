@@ -1,6 +1,5 @@
 -- Merging decision tree log ---
 manifest
-//k
 ADDED from C:\Users\Ben\AndroidStudioProjects\PersonalityApp\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\Ben\AndroidStudioProjects\PersonalityApp\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\Ben\AndroidStudioProjects\PersonalityApp\app\src\main\AndroidManifest.xml:2:1-24:12
