@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    public static Profile profile = new Profile(); //create profile where data is stored
     private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
