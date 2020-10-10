@@ -6,5 +6,5 @@
     <string name="male">Male</string>
     <string name="what_is_your_sex">What is your sex?</string>
     <string name="female">Female</string>
-    <string name="would_you_rather_be_considered_a">Would you rather be considered a</string>
+    <string name="result"></string>
 </resources>
