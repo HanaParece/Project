@@ -36,15 +36,6 @@ public class Question1 extends AppCompatActivity {
             }
         });
 
-        egg = (Button) findViewById(R.id.egg);
-        egg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //do something
-                openQuestion2();                    //go to next question, but it's an egg
-            }
-        });
-
     }
 
 
