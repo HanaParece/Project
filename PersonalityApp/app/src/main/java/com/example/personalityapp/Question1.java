@@ -10,7 +10,6 @@ import android.widget.Button;
 public class Question1 extends AppCompatActivity {
     private Button buttonA;                                     //declare buttonA as a button that will be defined
     private Button buttonB;
-    private Button egg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
