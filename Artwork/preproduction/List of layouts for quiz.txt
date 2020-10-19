@@ -1,0 +1,36 @@
+Since there are 50 questions in total,
+ I will create 10 main images for each and repeat the same theme for 5 questions
+
+The progression of cooking
+
+preperation
+	-choosing when to make the dish
+	-choosing menu type
+	-going shopping for extra ingredients
+	-chooising apron
+	-choosing utensils 
+	-choosing ingredients
+preparing the food
+	-chopping the veggies
+	-cracking the eggs
+	-picking the spices
+	-seasoning the proteins
+	-heating up the pots and pans
+	-setting up background music
+cooking the food
+	-grilling
+	-boiling
+	-steaming
+	-putting in oven
+	-mixing
+	-letting food sit?
+	-frying
+	...etc
+plating the food
+	-choosing the tablecloth
+	-choosing the dish
+	-choosing the spoons and forks and etc
+	-choosing the place to eat it at
+completed food
+	-This will be the food combos based on type
+	-plate reveal
