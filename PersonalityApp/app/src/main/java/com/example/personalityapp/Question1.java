@@ -35,7 +35,6 @@ public class Question1 extends AppCompatActivity {
             }
         });
 
-
     }
 
 
