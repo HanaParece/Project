@@ -1,10 +1,82 @@
 <resources>
     <string name="app_name">Personality App</string>
-    <string name="plan_what_you_will_do_and_when_or">plan what you will do and when, or</string>
-    <string name="just_go">just go!!</string>
-    <string name="when_you_go_somewhere_for_the_day_would_you_rather">When you go somewhere for the day, would you rather</string>
+
+
+
     <string name="male">Male</string>
     <string name="what_is_your_sex">What is your sex?</string>
     <string name="female">Female</string>
     <string name="result"></string>
+
+    <!--Part 2-->
+    <string name="part2_instructions">Choose the word that appeals to you more based on it\'s meaning (not how it looks or sounds). Ready?</string>
+    <string name="part2">Part 2</string>
+
+    <!--Question 1-->
+    <string name="question1">When you go somewhere for the day, would you rather</string>
+    <string name="question1_a">plan what you will do and when, or</string>
+    <string name="question1_b">just go!!</string>
+
+    <!--Question 2-->
+    <string name="question2">As a teacher, which would you rather teach?</string>
+    <string name="question2_a">Fact-based courses such as math</string>
+    <string name="question2_b">Courses involving opinion or theory</string>
+
+    <!--Question 3-->
+    <string name="question3">Are you usually</string>
+    <string name="question3_a">A good mixer with groups of people</string>
+    <string name="question3_b">Rather quiet and reserved</string>
+
+    <!--Question 4-->
+    <string name="question4">Do you more often let</string>
+    <string name="question4_a">Your heart rule your head, or</string>
+    <string name="question4_b">Your head rule your heart</string>
+
+    <!--Question 5-->
+    <string name="question5">In doing something that many other people do, would you rather</string>
+    <string name="question5_a">Invent a way of your own, or</string>
+    <string name="question5_b">Do it in the accepted way</string>
+
+    <!--Question 6-->
+    <string name="question6">Among your friends are you</string>
+    <string name="question6_a">Full of news about everybody, or</string>
+    <string name="question6_b">One of the last to hear what is going on</string>
+
+    <!--Question 7-->
+    <string name="question7">Does the idea of making a list of what you should get done over a weekend</string>
+    <string name="question7_a">Help you out</string>
+    <string name="question7_b">Stress you out</string>
+    <string name="question7_c">Positively depress you</string>
+
+    <!--Question 8-->
+    <string name="question8">When you have a special job to do, do you like to</string>
+    <string name="question8_a">Organize it carefully before you start</string>
+    <string name="question8_b">Learn the requirements as you work through it</string>
+
+    <!--Question 9-->
+    <string name="question9">Do you tend to have</string>
+    <string name="question9_a">Broad friendships with many different people</string>
+    <string name="question9_b">Deep friendships with very few people</string>
+
+    <!--Question 10-->
+    <string name="question10">Who do you admire more?</string>
+    <string name="question10_a">Someone normal who tries to avoid the center of attention</string>
+    <string name="question10_b">Someone original who doesn\'t care if they are (or aren\'t) the center of attention</string>
+
+    <!--Question 11-->
+    <string name="question11">Which do you prefer?</string>
+    <string name="question11_a">Making group plans well in advance</string>
+    <string name="question11_b">Being free to do whatever looks fun when the time comes</string>
+
+    <!--Question 12-->
+    <string name="question12">Who do you usually get along better with?</string>
+    <string name="question12_a">Realistic people</string>
+    <string name="question12_b">Imaginative people</string>
+
+    <!--Question 13-->
+    <string name="question13">When you are with the group of people, would you usually rather</string>
+    <string name="question13_a">Join in talking with the group</string>
+    <string name="question13_b">Be more reserved, chiming in occasionally</string>
+
+
 </resources>
