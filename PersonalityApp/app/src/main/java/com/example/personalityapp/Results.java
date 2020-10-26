@@ -16,7 +16,10 @@ public class Results extends AppCompatActivity {
         TextView result = (TextView) findViewById(R.id.result);
         result.setText(MainActivity.profile.toString());
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
     }
 
 
