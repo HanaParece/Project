@@ -21,6 +21,10 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    - name: Grant execute permission for gradlew
+      run: chmod +x PersonalityApp/gradlew
+    - name: Build with Gradle
+      run: ./PersonalityApp/gradlew build
     - name: Grant execute permission for Test
       run: chmod +x PersonalityApp/app/src/test/java/com/example/personalityapp/Test_Only_50_Questions.java
     - name: Run Tests
