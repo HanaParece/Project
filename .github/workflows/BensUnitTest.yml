@@ -22,6 +22,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Grant execute permission for com.example.personalityapp
-      run: chmod +x com.example.personalityapp
+      run: chmod +x Test_Only_50_Questions
     - name: Run Tests
-      run: ./com.example.personalityapp test
+      run: ./Test_Only_50_Questions test
