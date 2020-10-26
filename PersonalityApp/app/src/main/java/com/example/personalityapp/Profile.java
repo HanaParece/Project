@@ -1,46 +1,43 @@
 package com.example.personalityapp;
 
 public class Profile {
-    private int e = 0, i = 0, s = 0, n = 0, t = 0, f = 0, j = 0, p = 0;
-    private char sex;
-
-    public Profile() {
-        sex = 'M';
-    }
+    private static int e = 0, i = 0, s = 0, n = 0, t = 0, f = 0, j = 0, p = 0;
+    private char sex='M';
+    private static String mbti = "";
 
     public void setSex(char sex) {
         this.sex = sex;
     }
 
-    public void incrementE(int increment) {
+    public static void incrementE(int increment) {
         e += increment;
     }
 
-    public void incrementI(int increment) {
+    public static void incrementI(int increment) {
         i += increment;
     }
 
-    public void incrementS(int increment) {
+    public static void incrementS(int increment) {
         s += increment;
     }
 
-    public void incrementN(int increment) {
+    public static void incrementN(int increment) {
         n += increment;
     }
 
-    public void incrementT(int increment) {
+    public static void incrementT(int increment) {
         t += increment;
     }
 
-    public void incrementF(int increment) {
+    public static void incrementF(int increment) {
         f += increment;
     }
 
-    public void incrementJ(int increment) {
+    public static void incrementJ(int increment) {
         j += increment;
     }
 
-    public void incrementP(int increment) {
+    public static void incrementP(int increment) {
         p += increment;
     }
 
@@ -48,40 +45,40 @@ public class Profile {
         return sex;
     }
 
-    public int getE() {
+    public static int getE() {
         return e;
     }
 
-    public int getI() {
+    public static int getI() {
         return i;
     }
 
-    public int getS() {
+    public static int getS() {
         return s;
     }
 
-    public int getN() {
+    public static int getN() {
         return n;
     }
 
-    public int getT() {
+    public static int getT() {
         return t;
     }
 
-    public int getF() {
+    public static int getF() {
         return f;
     }
 
-    public int getJ() {
+    public static int getJ() {
         return j;
     }
 
-    public int getP() {
+    public static int getP() {
         return p;
     }
 
     public String toString() {
-        String mbti = "";
+        //String mbti = "";
 
         if (i > e || e == i) {
             mbti += "I";
@@ -101,7 +98,7 @@ public class Profile {
             mbti += "F";
         }
 
-        if (p > s || j == p) {
+        if (p > j || j == p) {
             mbti += "P";
         } else {
             mbti += "J";
@@ -110,6 +107,8 @@ public class Profile {
         return mbti;
     }
 
-
+    public static void clear_mbti(){
+        mbti="";
+    }
 
 }

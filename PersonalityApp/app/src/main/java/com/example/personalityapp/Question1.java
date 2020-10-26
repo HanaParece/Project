@@ -34,6 +34,7 @@ public class Question1 extends AppCompatActivity {
                 openQuestion2();                    //go to next question
             }
         });
+
     }
 
 
