@@ -251,17 +251,41 @@
     <!--Results Page-->
     <string name="results_header">Your MBTI Personality Type:</string>
     <string name="result"><!--content changes depending on user responses, see Results.java--></string>
-    <string name="ei"><!--content changes depending on user responses, see Results.java--></string>
-    <string name="sn"><!--content changes depending on user responses, see Results.java--></string>
-    <string name="tf"><!--content changes depending on user responses, see Results.java--></string>
-    <string name="jp"><!--content changes depending on user responses, see Results.java--></string>
-    <string name="mind">Mind:</string>
-    <string name="nature">Nature:</string>
-    <string name="energy">Energy:</string>
-    <string name="tactics">Tactics:</string>
-    <string name="back">Go Back</string>
     <string name="start_over">Start Over</string>
     <string name="details">Details</string>
+
+    <!--Results Navigation-->
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="return_results">Return to Result</string>
+
+    <!--Mind Page-->
+    <string name="mind">Mind:</string>
+    <string name="extroverted">Extroverted (E)</string>
+    <string name="introverted">Introverted (I)</string>
+    <string name="e_description">Prefer group activities, think while speaking, get energized by social interaction.</string>
+    <string name="i_description">Prefer solitary activities, think before speaking, get exhausted by social interaction.</string>
+
+    <!--Energy Page-->
+    <string name="energy">Energy:</string>
+    <string name="sensing">Sensing (S)</string>
+    <string name="intuitive">Intuitive (N)</string>
+    <string name="s_description">Down-to-earth, rely on senses, absorbed in practical matters, focus on what has happened.</string>
+    <string name="n_description">Imaginative, rely on intuition, absorbed in ideas, focus on what might happen.</string>
+
+    <!--Nature Page-->
+    <string name="nature">Nature:</string>
+    <string name="thinking">Thinking (T)</string>
+    <string name="feeling">Feeling (F)</string>
+    <string name="t_description">Tough, follow their minds, focus on objectivity and rationality.</string>
+    <string name="f_description">Sensitive, follow their hearts, focus on harmony and cooperation.</string>
+
+    <!--Tactics Page-->
+    <string name="tactics">Tactics:</string>
+    <string name="judging">Judging (J)</string>
+    <string name="perceiving">Perceiving (P)</string>
+    <string name="j_description">Decisive, prefer clear rules and guidelines, see deadlines as sacred, seek closure.</string>
+    <string name="p_description">Very good at improvising, prefer keeping their options open, relaxed about their work, seek freedom.</string>
 
 
 </resources>

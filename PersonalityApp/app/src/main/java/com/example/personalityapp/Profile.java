@@ -120,38 +120,6 @@ public class Profile {
         return mbti;
     }
 
-    public String getEIDetails() {
-        if (getEI() == 'E') {
-            return "Extroverted (E) - prefer group activities, think while speaking, get energized by social interaction.";
-        } else {
-            return "Introverted (I) - prefer solitary activities, think before speaking, get exhausted by social interaction.";
-        }
-    }
-
-    public String getSNDetails() {
-        if (getSN() == 'S') {
-            return "Sensing (S) - down-to-earth, rely on senses, absorbed in practical matters, focus on what has happened.";
-        } else {
-            return "Intuitive (N) - imaginative, rely on intuition, absorbed in ideas, focus on what might happen.";
-        }
-    }
-
-    public String getTFDetails() {
-        if (getTF() == 'T') {
-            return "Thinking (T) - tough, follow their minds, focus on objectivity and rationality.";
-        } else {
-            return "Feeling (F) - sensitive, follow their hearts, focus on harmony and cooperation.";
-        }
-    }
-
-    public String getJPDetails() {
-        if (getJP() =='J') {
-            return "Judging (J) - decisive, prefer clear rules and guidelines, see deadlines as sacred, seek closure.";
-        } else {
-            return "Perceiving (P) - very good at improvising, prefer keeping their options open, relaxed about their work, seek freedom.";
-        }
-    }
-
     public static void clearMBTI(){
         mbti="";
         e = 0;

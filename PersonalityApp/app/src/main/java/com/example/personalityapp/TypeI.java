@@ -7,21 +7,23 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Question50 extends AppCompatActivity {
+public class TypeI extends AppCompatActivity {
     private Button buttonA;                                     //declare buttonA as a button that will be defined
     private Button buttonB;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question50);                //set to the current page
+        setContentView(R.layout.activity_type_i);
+
+
 
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                MainActivity.profile.incrementT(2);
-                openResults();                    //go to results page
+                goBack();                    //show detailed results
             }
         });
 
@@ -29,15 +31,29 @@ public class Question50 extends AppCompatActivity {
         buttonB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //do something
-                openResults();                    //go to results page
+                if (MainActivity.profile.getSN() == 'S') {
+                    openS();
+                } else {
+                    openN();
+                }
             }
         });
+
     }
 
-    //link goes back to first page for now
-    public void openResults(){
+    public void goBack(){
         Intent intent = new Intent(this, Results.class); // change this line when adding more questions
         startActivity(intent);
     }
+
+    public void openS(){
+        Intent intent = new Intent(this, TypeS.class); // change this line when adding more questions
+        startActivity(intent);
+    }
+
+    public void openN(){
+        Intent intent = new Intent(this, TypeN.class); // change this line when adding more questions
+        startActivity(intent);
+    }
+
 }

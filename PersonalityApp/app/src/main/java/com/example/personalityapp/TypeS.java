@@ -1,31 +1,27 @@
 package com.example.personalityapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-public class Results extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class TypeS extends AppCompatActivity {
     private Button buttonA;                                     //declare buttonA as a button that will be defined
     private Button buttonB;
-    private TextView result;
+    private Button buttonC;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_results);
+        setContentView(R.layout.activity_type_s);
 
-        result = (TextView) findViewById(R.id.result);
-        result.setText(MainActivity.profile.toString());
-
+        //go back
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {                        //define what to do on click
-                //do something
                 if (MainActivity.profile.getEI() == 'E')
                     openE();
                 else
@@ -33,31 +29,53 @@ public class Results extends AppCompatActivity {
             }
         });
 
+        //next
         buttonB = (Button) findViewById(R.id.buttonB);
         buttonB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (MainActivity.profile.getTF() == 'T')
+                    openT();
+                else
+                    openF();
+            }
+        });
+
+        //return to results page
+        buttonC = (Button) findViewById(R.id.buttonC);
+        buttonC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 //do something
-                MainActivity.profile.clearMBTI();
-                startOver();                    //go back to title page
+                goResults();
             }
         });
 
     }
 
     public void openE(){
-        Intent intent = new Intent(this, TypeE.class); // change this line when adding more questions
+        Intent intent = new Intent(this, TypeE.class);
         startActivity(intent);
     }
 
     public void openI(){
-        Intent intent1 = new Intent(this, TypeI.class); // change this line when adding more questions
-        startActivity(intent1);
+        Intent intent = new Intent(this, TypeI.class);
+        startActivity(intent);
     }
 
-    public void startOver(){
-        Intent intent2 = new Intent(this, MainActivity.class); // change this line when adding more questions
-        startActivity(intent2);
+    public void goResults(){
+        Intent intent = new Intent(this, Results.class);
+        startActivity(intent);
+    }
+
+    public void openT(){
+        Intent intent = new Intent(this, TypeT.class);
+        startActivity(intent);
+    }
+
+    public void openF(){
+        Intent intent = new Intent(this, TypeF.class);
+        startActivity(intent);
     }
 
 }
