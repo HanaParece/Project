@@ -77,38 +77,91 @@ public class Profile {
         return p;
     }
 
-    public String toString() {
-        //String mbti = "";
-
+    public char getEI() {
         if (i > e || e == i) {
-            mbti += "I";
+            return 'I';
         } else {
-            mbti += "E";
+            return 'E';
         }
+    }
 
+    public char getSN() {
         if (n > s || s == n) {
-            mbti += "N";
+            return 'N';
         } else {
-            mbti += "S";
+            return 'S';
         }
+    }
 
+    public char getTF() {
         if ((t == f && sex == 'M') || t > f) {
-            mbti += "T";
+            return 'T';
         }  else {
-            mbti += "F";
+            return 'F';
         }
+    }
 
+    public char getJP() {
         if (p > j || j == p) {
-            mbti += "P";
+            return 'P';
         } else {
-            mbti += "J";
+            return 'J';
         }
+    }
+
+    public String toString() {
+        mbti = "";
+
+        mbti += getEI();
+        mbti += getSN();
+        mbti += getTF();
+        mbti += getJP();
 
         return mbti;
     }
 
-    public static void clear_mbti(){
+    public String getEIDetails() {
+        if (getEI() == 'E') {
+            return "Extroverted (E) - prefer group activities, think while speaking, get energized by social interaction.";
+        } else {
+            return "Introverted (I) - prefer solitary activities, think before speaking, get exhausted by social interaction.";
+        }
+    }
+
+    public String getSNDetails() {
+        if (getSN() == 'S') {
+            return "Sensing (S) - down-to-earth, rely on senses, absorbed in practical matters, focus on what has happened.";
+        } else {
+            return "Intuitive (N) - imaginative, rely on intuition, absorbed in ideas, focus on what might happen.";
+        }
+    }
+
+    public String getTFDetails() {
+        if (getTF() == 'T') {
+            return "Thinking (T) - tough, follow their minds, focus on objectivity and rationality.";
+        } else {
+            return "Feeling (F) - sensitive, follow their hearts, focus on harmony and cooperation.";
+        }
+    }
+
+    public String getJPDetails() {
+        if (getJP() =='J') {
+            return "Judging (J) - decisive, prefer clear rules and guidelines, see deadlines as sacred, seek closure.";
+        } else {
+            return "Perceiving (P) - very good at improvising, prefer keeping their options open, relaxed about their work, seek freedom.";
+        }
+    }
+
+    public static void clearMBTI(){
         mbti="";
+        e = 0;
+        i = 0;
+        s = 0;
+        n = 0;
+        t = 0;
+        f = 0;
+        j = 0;
+        p = 0;
     }
 
 }

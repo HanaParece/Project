@@ -9,17 +9,14 @@
     <string name="male">Male</string>
     <string name="female">Female</string>
 
-
-
-
     <!--Part 1-->
     <string name="part1">Part 1</string>
     <string name="part1_instructions">Please answer honestly to each question with how you feel or would act in each situation. Ready?</string>
 
     <!--Question 1-->
-    <string name="question1">When you go somewhere for the day, would you rather</string>
-    <string name="question1_a">plan what you will do and when, or</string>
-    <string name="question1_b">just go!!</string>
+    <string name="question1">Which approach would you rather take when going somewhere for the day?</string>
+    <string name="question1_a">Plan what you will do and when</string>
+    <string name="question1_b">Just go!!</string>
 
     <!--Question 2-->
     <string name="question2">As a teacher, which would you rather teach?</string>
@@ -27,18 +24,18 @@
     <string name="question2_b">Courses involving opinion or theory</string>
 
     <!--Question 3-->
-    <string name="question3">Are you usually</string>
+    <string name="question3">Which of the following better describes you under usual circumstances?</string>
     <string name="question3_a">A good mixer with groups of people</string>
     <string name="question3_b">Rather quiet and reserved</string>
 
     <!--Question 4-->
-    <string name="question4">Do you more often let</string>
-    <string name="question4_a">Your heart rule your head, or</string>
-    <string name="question4_b">Your head rule your heart</string>
+    <string name="question4">Which way do you think more often?</string>
+    <string name="question4_a">You let your heart rule your head</string>
+    <string name="question4_b">Your let your head rule your heart</string>
 
     <!--Question 5-->
-    <string name="question5">In doing something that many other people do, would you rather</string>
-    <string name="question5_a">Invent a way of your own, or</string>
+    <string name="question5">In doing something that many other people do, which approach would you rather take?</string>
+    <string name="question5_a">Invent a way of your own</string>
     <string name="question5_b">Do it in the accepted way</string>
 
     <!--Question 6-->
@@ -138,10 +135,10 @@
     <string name="question24_b">only after they really get to know you</string>
 
     <!--Question 25-->
-    <string name="question25">In your daily work, do you</string>
-    <string name="question25_a">A) usually plan your work to avoid stress</string>
-    <string name="question25_b">B) rather enjoy an emergency that makes you work against time</string>
-    <string name="question25_c">C) hate to work under pressure?</string>
+    <string name="question25">Which of the following best describes your attitude towards work?</string>
+    <string name="question25_a">A) You usually plan your work to avoid stress</string>
+    <string name="question25_b">B) You rather enjoy an emergency that makes you work against time</string>
+    <string name="question25_c">C) You hate to work under pressure?</string>
     <string name="question25_d">A and B both apply to me.</string>
     <string name="question25_e">A and C both apply to me.</string>
     <string name="question25_f">B and C both apply to me</string>
@@ -252,6 +249,19 @@
     <string name="question50_b">Soft</string>
 
     <!--Results Page-->
+    <string name="results_header">Your MBTI Personality Type:</string>
     <string name="result"><!--content changes depending on user responses, see Results.java--></string>
+    <string name="ei"><!--content changes depending on user responses, see Results.java--></string>
+    <string name="sn"><!--content changes depending on user responses, see Results.java--></string>
+    <string name="tf"><!--content changes depending on user responses, see Results.java--></string>
+    <string name="jp"><!--content changes depending on user responses, see Results.java--></string>
+    <string name="mind">Mind:</string>
+    <string name="nature">Nature:</string>
+    <string name="energy">Energy:</string>
+    <string name="tactics">Tactics:</string>
+    <string name="back">Go Back</string>
+    <string name="start_over">Start Over</string>
+    <string name="details">Details</string>
+
 
 </resources>
