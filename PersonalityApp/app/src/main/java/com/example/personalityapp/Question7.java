@@ -50,6 +50,9 @@ public class Question7 extends AppCompatActivity {
 
     public void openQuestion8() {
         Intent intent = new Intent(this, Question8.class);
-        startActivity(intent);
+        //startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

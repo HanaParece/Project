@@ -143,14 +143,14 @@
     <string name="question25_e">A and C both apply</string>
     <string name="question25_f">B and C both apply</string>
 
+    <!--Question 26-->
+    <string name="question26">How do you handle your feelings?</string>
+    <string name="question26_a">Show your feeling freely</string>
+    <string name="question26_b">Keep your feelings to yourself</string>
+
     <!--Part 2-->
     <string name="part2_instructions">Choose the word that appeals to you more based on it\'s meaning (not how it looks or sounds). Ready?</string>
     <string name="part2">Part 2</string>
-
-    <!--Question 26-->
-    <string name="question26">Do you usually</string>
-    <string name="question26_a">show your feeling freely, or</string>
-    <string name="question26_b">keep your feelings to yourself?</string>
 
     <!--Question 27-->
     <string name="question27_a">Scheduled</string>
@@ -230,7 +230,7 @@
 
     <!--Question 46-->
     <string name="question46_a">Firm-Minded</string>
-    <string name="question46_b">Warm Hearted</string>
+    <string name="question46_b">Warm-Hearted</string>
 
     <!--Question 47-->
     <string name="question47_a">Feeling</string>

@@ -25,7 +25,12 @@ public class Part1 extends AppCompatActivity {
 
 
     public void openQuestion1(){
+//        Intent intent = new Intent(this, Question1.class);
+//        startActivity(intent);
+
         Intent intent = new Intent(this, Question1.class);
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

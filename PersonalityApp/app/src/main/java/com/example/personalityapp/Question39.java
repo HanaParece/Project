@@ -39,6 +39,8 @@ public class Question39 extends AppCompatActivity {
     //link goes back to first page for now
     public void openQuestion40(){
         Intent intent = new Intent(this, Question40.class); // change this line when adding more questions
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

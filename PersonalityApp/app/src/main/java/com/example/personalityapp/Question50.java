@@ -35,7 +35,6 @@ public class Question50 extends AppCompatActivity {
         });
     }
 
-    //link goes back to first page for now
     public void openResults(){
         Intent intent = new Intent(this, Results.class); // change this line when adding more questions
         startActivity(intent);

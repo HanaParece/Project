@@ -36,9 +36,10 @@ public class Question48 extends AppCompatActivity {
         });
     }
 
-    //link goes back to first page for now
     public void openQuestion49(){
         Intent intent = new Intent(this, Question49.class); // change this line when adding more questions
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

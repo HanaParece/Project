@@ -36,9 +36,10 @@ public class Question21 extends AppCompatActivity {
         });
     }
 
-
     public void openQuestion22(){
         Intent intent = new Intent(this, Question22.class);
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

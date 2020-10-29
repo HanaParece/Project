@@ -38,6 +38,8 @@ public class Question10 extends AppCompatActivity {
 
     public void openQuestion11() {
         Intent intent = new Intent(this, Question11.class);
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }
