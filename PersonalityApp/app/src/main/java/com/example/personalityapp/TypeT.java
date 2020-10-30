@@ -56,11 +56,13 @@ public class TypeT extends AppCompatActivity {
     public void openS(){
         Intent intent = new Intent(this, TypeS.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.enter_left, R.anim.exit_left);
     }
 
     public void openN(){
         Intent intent = new Intent(this, TypeN.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.enter_left, R.anim.exit_left);
     }
 
     public void goResults(){
@@ -71,11 +73,13 @@ public class TypeT extends AppCompatActivity {
     public void openJ(){
         Intent intent = new Intent(this, TypeJ.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.enter, R.anim.exit);
     }
 
     public void openP(){
         Intent intent = new Intent(this, TypeP.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.enter, R.anim.exit);
     }
 
 }

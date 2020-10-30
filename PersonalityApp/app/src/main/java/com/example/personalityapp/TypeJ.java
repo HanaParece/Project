@@ -44,11 +44,13 @@ public class TypeJ extends AppCompatActivity {
     public void openT(){
         Intent intent = new Intent(this, TypeT.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.enter_left, R.anim.exit_left);
     }
 
     public void openF(){
         Intent intent = new Intent(this, TypeF.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.enter_left, R.anim.exit_left);
     }
 
     public void goResults(){

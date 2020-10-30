@@ -257,6 +257,7 @@
     <!--Results Navigation-->
     <string name="back">Back</string>
     <string name="next">Next</string>
+    <string name="finish">Finish</string>
     <string name="return_results">Return to Result</string>
 
     <!--Mind Page-->

@@ -49,11 +49,13 @@ public class TypeI extends AppCompatActivity {
     public void openS(){
         Intent intent = new Intent(this, TypeS.class); // change this line when adding more questions
         startActivity(intent);
+        overridePendingTransition(R.anim.enter, R.anim.exit);
     }
 
     public void openN(){
         Intent intent = new Intent(this, TypeN.class); // change this line when adding more questions
         startActivity(intent);
+        overridePendingTransition(R.anim.enter, R.anim.exit);
     }
 
 }
