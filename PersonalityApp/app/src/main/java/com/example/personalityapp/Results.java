@@ -18,6 +18,8 @@ public class Results extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
 
+        MainActivity.profile.calculateMBTI();
+
         result = (TextView) findViewById(R.id.result);
         result.setText(MainActivity.profile.toString());
 

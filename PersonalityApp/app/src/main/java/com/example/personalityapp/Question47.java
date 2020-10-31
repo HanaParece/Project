@@ -20,7 +20,7 @@ public class Question47 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                MainActivity.profile.incrementF(1);
+                MainActivity.profile.setResponse(47, 'A');
                 openQuestion48();                    //go to next question
             }
         });
@@ -30,7 +30,7 @@ public class Question47 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                MainActivity.profile.incrementT(2);
+                MainActivity.profile.setResponse(47, 'B');
                 openQuestion48();                    //go to next question
             }
         });

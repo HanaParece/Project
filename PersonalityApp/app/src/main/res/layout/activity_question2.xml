@@ -36,7 +36,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="@drawable/Tomatotwo"
+        android:background="@drawable/tomatotwo"
         android:text="@string/question2_a"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
