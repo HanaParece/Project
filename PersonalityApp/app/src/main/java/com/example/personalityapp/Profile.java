@@ -2,7 +2,7 @@ package com.example.personalityapp;
 
 public class Profile {
     private static int e = 0, i = 0, s = 0, n = 0, t = 0, f = 0, j = 0, p = 0;
-    private static char sex = 'M';
+    private static char sex;
     private static String mbti = "";
     private static char[] responseArr = new char[51]; //responses are stored in this array
 
@@ -305,41 +305,14 @@ public class Profile {
         if (responseArr[50] == 'A')
             t += 2;
 
+        mbti += getEI();
+        mbti += getSN();
+        mbti += getTF();
+        mbti += getJP();
     }
 
-    public static int getE() {
-        return e;
-    }
-
-    public static int getI() {
-        return i;
-    }
-
-    public static int getS() {
-        return s;
-    }
-
-    public static int getN() {
-        return n;
-    }
-
-    public static int getT() {
-        return t;
-    }
-
-    public static int getF() {
-        return f;
-    }
-
-    public static int getJ() {
-        return j;
-    }
-
-    public static int getP() {
-        return p;
-    }
-
-    public char getEI() {
+    //mind
+    public static char getEI() {
         if (i > e || e == i) {
             return 'I';
         } else {
@@ -347,7 +320,8 @@ public class Profile {
         }
     }
 
-    public char getSN() {
+    //energy
+    public static char getSN() {
         if (n > s || s == n) {
             return 'N';
         } else {
@@ -355,7 +329,8 @@ public class Profile {
         }
     }
 
-    public char getTF() {
+    //nature
+    public static char getTF() {
         if ((t == f && sex == 'M') || t > f) {
             return 'T';
         }  else {
@@ -363,7 +338,8 @@ public class Profile {
         }
     }
 
-    public char getJP() {
+    //tactics
+    public static char getJP() {
         if (p > j || j == p) {
             return 'P';
         } else {
@@ -372,13 +348,6 @@ public class Profile {
     }
 
     public String toString() {
-        mbti = "";
-
-        mbti += getEI();
-        mbti += getSN();
-        mbti += getTF();
-        mbti += getJP();
-
         return mbti;
     }
 
