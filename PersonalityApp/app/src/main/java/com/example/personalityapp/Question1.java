@@ -5,11 +5,11 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-
-
 public class Question1 extends AppCompatActivity {
     private Button buttonA;                                     //declare buttonA as a button that will be defined
     private Button buttonB;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

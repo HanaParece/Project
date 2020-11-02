@@ -1,5 +1,4 @@
 package com.example.personalityapp;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -23,10 +22,8 @@ public class Results extends AppCompatActivity {
         result = (TextView) findViewById(R.id.result);
         result.setText(MainActivity.profile.toString());
 
-<<<<<<< HEAD
 
-    }
-=======
+
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,7 +45,6 @@ public class Results extends AppCompatActivity {
                 startOver();                    //go back to title page
             }
         });
->>>>>>> master
 
     }
 
