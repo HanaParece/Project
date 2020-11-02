@@ -20,7 +20,7 @@ public class Question35 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                MainActivity.profile.incrementS(2);
+                MainActivity.profile.setResponse(35, 'A');
                 openQuestion36();                    //go to next question
             }
         });
@@ -30,15 +30,16 @@ public class Question35 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                MainActivity.profile.incrementN(1);
+                MainActivity.profile.setResponse(35, 'B');
                 openQuestion36();                    //go to next question
             }
         });
     }
 
-    //link goes back to first page for now
     public void openQuestion36(){
         Intent intent = new Intent(this, Question36.class); // change this line when adding more questions
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

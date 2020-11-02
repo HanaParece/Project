@@ -26,7 +26,7 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                MainActivity.profile.incrementJ(1);
+                MainActivity.profile.setResponse(25, 'A');
                 openQuestion26();                    //go to next question
             }
         });
@@ -36,7 +36,7 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                MainActivity.profile.incrementP(1);
+                MainActivity.profile.setResponse(25, 'B');
                 openQuestion26();                    //go to next question
             }
         });
@@ -45,7 +45,7 @@ public class Question25 extends AppCompatActivity {
         buttonC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {                        //define what to do on click
-                //do something
+                MainActivity.profile.setResponse(25, 'C');
                 openQuestion26();                    //go to next question
             }
         });
@@ -55,8 +55,7 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                MainActivity.profile.incrementJ(1);
-                MainActivity.profile.incrementP(1);
+                MainActivity.profile.setResponse(25, 'D');
                 openQuestion26();                    //go to next question
             }
         });
@@ -66,7 +65,7 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                MainActivity.profile.incrementJ(1);
+                MainActivity.profile.setResponse(25, 'E');
                 openQuestion26();                    //go to next question
             }
         });
@@ -76,22 +75,18 @@ public class Question25 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                MainActivity.profile.incrementP(1);
+                MainActivity.profile.setResponse(25, 'F');
                 openQuestion26();                    //go to next question
             }
         });
-
-
-
-
-
-
 
     }
 
 
     public void openQuestion26(){
         Intent intent = new Intent(this, Question26.class);
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

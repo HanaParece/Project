@@ -20,8 +20,8 @@ public class Question50 extends AppCompatActivity {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                MainActivity.profile.incrementT(2);
-                openResults();                    //go to next question
+                MainActivity.profile.setResponse(50, 'A');
+                openResults();                    //go to results page
             }
         });
 
@@ -30,12 +30,12 @@ public class Question50 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                openResults();                    //go to next question
+                MainActivity.profile.setResponse(50, 'B');
+                openResults();                    //go to results page
             }
         });
     }
 
-    //link goes back to first page for now
     public void openResults(){
         Intent intent = new Intent(this, Results.class); // change this line when adding more questions
         startActivity(intent);
