@@ -19,8 +19,7 @@ public class Question2 extends AppCompatActivity {
         buttonA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {                        //define what to do on click
-                //do something
-                MainActivity.profile.setResponse(2, 'A');
+                MainActivity.profile.setResponse(2, 'A');                //do something
                 openQuestion3();                    //go to next question
             }
         });
@@ -29,8 +28,7 @@ public class Question2 extends AppCompatActivity {
         buttonB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //do something
-                MainActivity.profile.setResponse(2, 'B');
+                MainActivity.profile.setResponse(2, 'B');                //do something
                 openQuestion3();                    //go to next question
             }
         });

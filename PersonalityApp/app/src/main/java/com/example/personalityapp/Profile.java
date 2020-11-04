@@ -368,5 +368,4 @@ public class Profile {
             responseArr[i] = '\u0000';
         }
     }
-
 }
