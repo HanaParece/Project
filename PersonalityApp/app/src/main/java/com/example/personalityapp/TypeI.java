@@ -15,8 +15,7 @@ public class TypeI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_type_i);
-
-
+        getSupportActionBar().hide(); //hide title bar
 
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {

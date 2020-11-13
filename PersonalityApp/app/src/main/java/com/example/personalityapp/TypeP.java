@@ -16,6 +16,7 @@ public class TypeP extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_type_p);
+        getSupportActionBar().hide(); //hide title bar
 
         //go back
         buttonA = (Button) findViewById(R.id.buttonA);

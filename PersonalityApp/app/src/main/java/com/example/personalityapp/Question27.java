@@ -14,6 +14,7 @@ public class Question27 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question27);                //set to the current page
+        getSupportActionBar().hide(); //hide title bar
 
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {
