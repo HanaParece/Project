@@ -29,56 +29,62 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.07999998" />
 
+
     <Button
         android:id="@+id/buttonA"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="174dp"
+        android:layout_height="168dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="@drawable/orange1"
         android:text="@string/question7_a"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527" />
+        app:layout_constraintVertical_bias="0.321" />
 
     <Button
         android:id="@+id/buttonB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="164dp"
+        android:layout_height="148dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="@drawable/orange2"
         android:text="@string/question7_b"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
-
+        app:layout_constraintVertical_bias="0.598" />
 
     <Button
         android:id="@+id/buttonC"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="237dp"
+        android:layout_height="227dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="@drawable/carrot_button_1_no_text"
         android:text="@string/question7_c"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.695" />
+        app:layout_constraintVertical_bias="0.672" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
