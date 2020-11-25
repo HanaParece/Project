@@ -10,10 +10,12 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     public static Profile profile = new Profile(); //create profile where data is stored
     private Button button;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide(); //hide title bar
 
 
         button = (Button) findViewById(R.id.button);

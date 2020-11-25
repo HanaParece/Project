@@ -1,10 +1,292 @@
 <resources>
     <string name="app_name">Personality App</string>
-    <string name="plan_what_you_will_do_and_when_or">plan what you will do and when, or</string>
-    <string name="just_go">just go!!</string>
-    <string name="when_you_go_somewhere_for_the_day_would_you_rather">When you go somewhere for the day, would you rather</string>
+    <string name="personality_test_header">personality_test_header</string>
+
+    <string name="begin">Begin</string>
+
+    <!--Gender-->
+    <string name="sex">What is your sex?</string>
     <string name="male">Male</string>
-    <string name="what_is_your_sex">What is your sex?</string>
     <string name="female">Female</string>
-    <string name="result"></string>
+
+    <!--Part 1-->
+    <string name="part1">Part 1</string>
+    <string name="part1_instructions">Please answer honestly to each question with how you feel or would act in each situation. Ready?</string>
+
+    <!--Question 1-->
+    <string name="question1">Which approach would you rather take when going somewhere for the day?</string>
+    <string name="question1_a">Plan what you will do and when</string>
+    <string name="question1_b">Just go!!</string>
+
+    <!--Question 2-->
+    <string name="question2">As a teacher, which would you rather teach?</string>
+    <string name="question2_a">Fact-based courses such as math</string>
+    <string name="question2_b">Courses involving opinion or theory</string>
+
+    <!--Question 3-->
+    <string name="question3">Which of the following better describes you under usual circumstances?</string>
+    <string name="question3_a">A good mixer with groups of people</string>
+    <string name="question3_b">Rather quiet and reserved</string>
+
+    <!--Question 4-->
+    <string name="question4">Which way do you think more often?</string>
+    <string name="question4_a">You let your heart rule your head</string>
+    <string name="question4_b">Your let your head rule your heart</string>
+
+    <!--Question 5-->
+    <string name="question5">In doing something that many other people do, which approach would you rather take?</string>
+    <string name="question5_a">Invent a way of your own</string>
+    <string name="question5_b">Do it in the accepted way</string>
+
+    <!--Question 6-->
+    <string name="question6">Which of the following better describes you among your friends?</string>
+    <string name="question6_a">Full of news about everybody</string>
+    <string name="question6_b">One of the last to hear what is going on</string>
+
+    <!--Question 7-->
+    <string name="question7">How does the idea of making a list of what you should get done over a weekend impact you?</string>
+    <string name="question7_a">Helps you out</string>
+    <string name="question7_b">Stresses you out</string>
+    <string name="question7_c">Positively depresses you</string>
+
+    <!--Question 8-->
+    <string name="question8">When you have a special job to do, which approach do you like to take?</string>
+    <string name="question8_a">Organize it carefully before you start</string>
+    <string name="question8_b">Learn the requirements as you work through it</string>
+
+    <!--Question 9-->
+    <string name="question9">Which of the following do you tend to have?</string>
+    <string name="question9_a">Broad friendships with many different people</string>
+    <string name="question9_b">Deep friendships with very few people</string>
+
+    <!--Question 10-->
+    <string name="question10">Who do you admire more?</string>
+    <string name="question10_a">Someone normal who tries to avoid the center of attention</string>
+    <string name="question10_b">Someone original who doesn\'t care if they are (or aren\'t) the center of attention</string>
+
+    <!--Question 11-->
+    <string name="question11">Which do you prefer?</string>
+    <string name="question11_a">Making group plans well in advance</string>
+    <string name="question11_b">Being free to do whatever looks fun when the time comes</string>
+
+    <!--Question 12-->
+    <string name="question12">Who do you usually get along better with?</string>
+    <string name="question12_a">Realistic people</string>
+    <string name="question12_b">Imaginative people</string>
+
+    <!--Question 13-->
+    <string name="question13">When you are with the group of people, which would you rather do?</string>
+    <string name="question13_a">Join in talking with the group</string>
+    <string name="question13_b">Be more reserved, chiming in occasionally</string>
+
+    <!--Question 14-->
+    <string name="question14">Which do you think is the higher compliment?</string>
+    <string name="question14_a">Being called a person of real feeling and emotion</string>
+    <string name="question14_b">Being called a consistently reasonable person</string>
+
+    <!--Question 15-->
+    <string name="question15">In reading for pleasure, which do you prefer?</string>
+    <string name="question15_a">Writers who express ideas in odd or original ways</string>
+    <string name="question15_b">Writers who say exactly what they mean</string>
+
+    <!--Question 16-->
+    <string name="question16">Which of the following more accurately describes you?</string>
+    <string name="question16_a">You talk easily to almost anyone for as long as you have to</string>
+    <string name="question16_b">You find a lot to say only to certain people or under certain conditions</string>
+
+    <!--Question 17-->
+    <string name="question17">How do you feel about following a schedule?</string>
+    <string name="question17_a">It appeals to you</string>
+    <string name="question17_b">It cramps you</string>
+
+    <!--Question 18-->
+    <string name="question18">How do you feel when it is settled well in advance that you will do a certain thing at a certain time?</string>
+    <string name="question18_a">It feels nice to be able to plan accordingly</string>
+    <string name="question18_b">It feels little unpleasant to be tied down</string>
+
+    <!--Question 19-->
+    <string name="question19">Which of the following do you do more successfully?</string>
+    <string name="question19_a">Following a carefully worked out plan</string>
+    <string name="question19_b">Dealing with the unexpected and seeing quickly what should be done</string>
+
+    <!--Question 20-->
+    <string name="question20">Which do you want to be seen as?</string>
+    <string name="question20_a">A practical person</string>
+    <string name="question20_b">a person who thinks out-of-the box</string>
+
+    <!--Question 21-->
+    <string name="question21">In a large group, which do you do most often?</string>
+    <string name="question21_a">Introduce others</string>
+    <string name="question21_b">get introduced</string>
+
+    <!--Question 22-->
+    <string name="question22">Which of the two do you value more?</string>
+    <string name="question22_a">Emotion</string>
+    <string name="question22_b">Logic</string>
+
+    <!--Question 23-->
+    <string name="question23">Who would you rather have as a friend?</string>
+    <string name="question23_a">Someone who is always coming up with new ideas</string>
+    <string name="question23_b">Someone who has both feet on the ground</string>
+
+    <!--Question 24-->
+    <string name="question24">When meeting new people, how soon do they know your interests?</string>
+    <string name="question24_a">Right away</string>
+    <string name="question24_b">Only after they really get to know you</string>
+
+    <!--Question 25-->
+    <string name="question25">Which of the following best describes your attitude towards work?</string>
+    <string name="question25_a">A) You usually plan your work to avoid stress</string>
+    <string name="question25_b">B) You rather enjoy an emergency that makes you work against time</string>
+    <string name="question25_c">C) You hate to work under pressure</string>
+    <string name="question25_d">A and B both apply</string>
+    <string name="question25_e">A and C both apply</string>
+    <string name="question25_f">B and C both apply</string>
+
+    <!--Question 26-->
+    <string name="question26">How do you handle your feelings?</string>
+    <string name="question26_a">Show your feeling freely</string>
+    <string name="question26_b">Keep your feelings to yourself</string>
+
+    <!--Part 2-->
+    <string name="part2_instructions">Choose the word that appeals to you more based on it\'s meaning (not how it looks or sounds). Ready?</string>
+    <string name="part2">Part 2</string>
+
+    <!--Question 27-->
+    <string name="question27_a">Scheduled</string>
+    <string name="question27_b">Unplanned</string>
+
+    <!--Question 28-->
+    <string name="question28_a">Facts</string>
+    <string name="question28_b">Ideas</string>
+
+    <!--Question 29-->
+    <string name="question29_a">Quiet</string>
+    <string name="question29_b">Hearty</string>
+
+    <!--Question 30-->
+    <string name="question30_a">Convincing</string>
+    <string name="question30_b">Touching</string>
+
+    <!--Question 31-->
+    <string name="question31_a">Imaginative</string>
+    <string name="question31_b">Matter-of-Fact</string>
+
+    <!--Question 32-->
+    <string name="question32_a">Benefits</string>
+    <string name="question32_b">Blessings</string>
+
+    <!--Question 33-->
+    <string name="question33_a">Peacemaker</string>
+    <string name="question33_b">Judge</string>
+
+    <!--Question 34-->
+    <string name="question34_a">Systematic</string>
+    <string name="question34_b">Spontaneous</string>
+
+    <!--Question 35-->
+    <string name="question35_a">Statement</string>
+    <string name="question35_b">Concept</string>
+
+    <!--Question 36-->
+    <string name="question36_a">Reserved</string>
+    <string name="question36_b">Talkative</string>
+
+    <!--Question 37-->
+    <string name="question37_a">Analyze</string>
+    <string name="question37_b">Sympathize</string>
+
+    <!--Question 38-->
+    <string name="question38_a">Create</string>
+    <string name="question38_b">Make</string>
+
+    <!--Question 39-->
+    <string name="question39_a">Determined</string>
+    <string name="question39_b">Devoted</string>
+
+    <!--Question 40-->
+    <string name="question40_a">Gentle</string>
+    <string name="question40_b">Firm</string>
+
+    <!--Question 41-->
+    <string name="question41_a">Systematic</string>
+    <string name="question41_b">Casual</string>
+
+    <!--Question 42-->
+    <string name="question42_a">Certainty</string>
+    <string name="question42_b">Theory</string>
+
+    <!--Question 43-->
+    <string name="question43_a">Calm</string>
+    <string name="question43_b">Lively</string>
+
+    <!--Question 44-->
+    <string name="question44_a">Justice</string>
+    <string name="question44_b">Mercy</string>
+
+    <!--Question 45-->
+    <string name="question45_a">Fascinating</string>
+    <string name="question45_b">Sensible</string>
+
+    <!--Question 46-->
+    <string name="question46_a">Firm-Minded</string>
+    <string name="question46_b">Warm-Hearted</string>
+
+    <!--Question 47-->
+    <string name="question47_a">Feeling</string>
+    <string name="question47_b">Thinking</string>
+
+    <!--Question 48-->
+    <string name="question48_a">Literal</string>
+    <string name="question48_b">Figurative</string>
+
+    <!--Question 49-->
+    <string name="question49_a">Anticipation</string>
+    <string name="question49_b">Compassion</string>
+
+    <!--Question 50-->
+    <string name="question50_a">Hard</string>
+    <string name="question50_b">Soft</string>
+
+    <!--Results Page-->
+    <string name="results_header">Your MBTI Personality Type:</string>
+    <string name="result"><!--content changes depending on user responses, see Results.java--></string>
+    <string name="start_over">Start Over</string>
+    <string name="details">Details</string>
+
+    <!--Results Navigation-->
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="return_results">Return to Result</string>
+
+    <!--Mind Page-->
+    <string name="mind">Mind:</string>
+    <string name="extroverted">Extroverted (E)</string>
+    <string name="introverted">Introverted (I)</string>
+    <string name="e_description">Prefer group activities, think while speaking, get energized by social interaction.</string>
+    <string name="i_description">Prefer solitary activities, think before speaking, get exhausted by social interaction.</string>
+
+    <!--Energy Page-->
+    <string name="energy">Energy:</string>
+    <string name="sensing">Sensing (S)</string>
+    <string name="intuitive">Intuitive (N)</string>
+    <string name="s_description">Down-to-earth, rely on senses, absorbed in practical matters, focus on what has happened.</string>
+    <string name="n_description">Imaginative, rely on intuition, absorbed in ideas, focus on what might happen.</string>
+
+    <!--Nature Page-->
+    <string name="nature">Nature:</string>
+    <string name="thinking">Thinking (T)</string>
+    <string name="feeling">Feeling (F)</string>
+    <string name="t_description">Tough, follow their minds, focus on objectivity and rationality.</string>
+    <string name="f_description">Sensitive, follow their hearts, focus on harmony and cooperation.</string>
+
+    <!--Tactics Page-->
+    <string name="tactics">Tactics:</string>
+    <string name="judging">Judging (J)</string>
+    <string name="perceiving">Perceiving (P)</string>
+    <string name="j_description">Decisive, prefer clear rules and guidelines, see deadlines as sacred, seek closure.</string>
+    <string name="p_description">Very good at improvising, prefer keeping their options open, relaxed about their work, seek freedom.</string>
+
+
 </resources>

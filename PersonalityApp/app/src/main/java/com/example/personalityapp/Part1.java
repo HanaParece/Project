@@ -13,6 +13,7 @@ public class Part1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_part1);
+        getSupportActionBar().hide(); //hide title bar
 
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -25,7 +26,12 @@ public class Part1 extends AppCompatActivity {
 
 
     public void openQuestion1(){
+//        Intent intent = new Intent(this, Question1.class);
+//        startActivity(intent);
+
         Intent intent = new Intent(this, Question1.class);
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

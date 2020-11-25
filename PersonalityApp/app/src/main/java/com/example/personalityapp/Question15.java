@@ -14,13 +14,14 @@ public class Question15 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question15);                //set to the current page
+        getSupportActionBar().hide(); //hide title bar
 
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {                        //define what to do on click
                 //do something
-                //If A, do nothing
+                MainActivity.profile.setResponse(15, 'A');
                 openQuestion16();                    //go to next question
             }
         });
@@ -30,15 +31,16 @@ public class Question15 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //do something
-                MainActivity.profile.incrementS(1);
+                MainActivity.profile.setResponse(15, 'B');
                 openQuestion16();                    //go to next question
             }
         });
     }
 
-
     public void openQuestion16(){
         Intent intent = new Intent(this, Question16.class);
-        startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }

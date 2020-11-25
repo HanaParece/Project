@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Results"></activity>
+        <activity android:name=".Results" />
+        <activity android:name=".TypeE" />
+        <activity android:name=".TypeI" />
+        <activity android:name=".TypeS" />
+        <activity android:name=".TypeN" />
+        <activity android:name=".TypeT" />
+        <activity android:name=".TypeF" />
+        <activity android:name=".TypeJ" />
+        <activity android:name=".TypeP" />
         <activity android:name=".Question50" />
         <activity android:name=".Question49" />
         <activity android:name=".Question48" />

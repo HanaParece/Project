@@ -14,13 +14,13 @@ public class Question2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question2);                //set to the current page
+        getSupportActionBar().hide(); //hide title bar
 
         buttonA = (Button) findViewById(R.id.buttonA);
         buttonA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {                        //define what to do on click
-                //do something
-                MainActivity.profile.incrementJ(2); //increment J by 2
+                MainActivity.profile.setResponse(2, 'A');                //do something
                 openQuestion3();                    //go to next question
             }
         });
@@ -29,8 +29,7 @@ public class Question2 extends AppCompatActivity {
         buttonB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //do something
-                MainActivity.profile.incrementP(2); //increment P by 2
+                MainActivity.profile.setResponse(2, 'B');                //do something
                 openQuestion3();                    //go to next question
             }
         });
@@ -38,6 +37,9 @@ public class Question2 extends AppCompatActivity {
 
     public void openQuestion3() {
         Intent intent = new Intent(this, Question3.class);
-        startActivity(intent);
+        //startActivity(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+        overridePendingTransition(0,0);
     }
 }
