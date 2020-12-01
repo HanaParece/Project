@@ -3,6 +3,10 @@
     <string name="personality_test_header">personality_test_header</string>
 
     <string name="begin">Begin</string>
+    <string name="about">About</string>
+
+    <!--About-->
+    <string name="credits">Yunseo Choi, Roy Chung, Ben Hodge, Claire Paisley, and Hana Parece (This is just a placeholder, we\'ll figure out how to credit all of us and what else to write here)</string>
 
     <!--Gender-->
     <string name="sex">What is your sex?</string>
