@@ -6,7 +6,9 @@
     <string name="about">About</string>
 
     <!--About-->
-    <string name="credits">Yunseo Choi, Roy Chung, Ben Hodge, Claire Paisley, and Hana Parece (This is just a placeholder, we\'ll figure out how to credit all of us and what else to write here)</string>
+    <string name="credits">Yunseo Choi - Lead Graphics, Design, UI\nRoy Chung - \nBen Hodge - \nClaire Paisley - \nHana Parece - \n
+        (This is just a placeholder, we\'ll figure out how to credit all of us and what else to write here)</string>
+
 
     <!--Gender-->
     <string name="sex">What is your sex?</string>
