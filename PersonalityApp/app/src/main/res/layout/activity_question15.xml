@@ -4,47 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/frypanbackground"
+    android:background="@drawable/frypanbg"
     tools:context=".Question15">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#E3B4C7"
+        android:gravity="center"
         android:text="@string/question15"
-        android:textSize="14sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <Button
         android:id="@+id/buttonA"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="199dp"
         android:layout_alignParentBottom="true"
-        android:text="@string/question15_a"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/writers_who_express"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonB"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.374" />
 
     <Button
         android:id="@+id/buttonB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="205dp"
+        android:layout_height="226dp"
         android:layout_alignParentBottom="true"
-        android:text="@string/question15_b"
+        android:background="@drawable/writers_who_say_just_what_they_mean"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonA"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.653" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
