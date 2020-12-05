@@ -1,0 +1,33 @@
+# This workflow will build a Java project with Gradle
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
+
+name: Java CI with Gradle
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    - name: Build with Gradle
+      run: ./gradlew build
+      - name: Send Push Notification
+  # You may pin to the exact commit or the version.
+  # uses: techulus/push-github-action@d5f9f046ccf106b807d5a38822b4d0d83748cb5a
+uses: techulus/push-github-action@1.0.0
+      env:
+        API_KEY: 6fd91d00-d65e-4a88-b545-b72ecd15d44a
+        MESSAGE: "Hana Parece, there is a new build!"
